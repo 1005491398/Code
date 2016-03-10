@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		605A7D101C04486100C1438F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 605A7D0F1C04486100C1438F /* main.cpp */; };
+		605A7D181C04487700C1438F /* Commponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 605A7D161C04487700C1438F /* Commponent.cpp */; };
+		605A7D1B1C04489A00C1438F /* CommponentManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 605A7D191C04489A00C1438F /* CommponentManager.cpp */; };
+		605A7D1F1C054E7700C1438F /* Observer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 605A7D1D1C054E7700C1438F /* Observer.cpp */; };
+		605A7D231C0561D900C1438F /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 605A7D211C0561D900C1438F /* Controller.cpp */; };
+		605A7D271C05627000C1438F /* Model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 605A7D251C05627000C1438F /* Model.cpp */; };
+		605A7D2A1C0562CF00C1438F /* FruitModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 605A7D281C0562CF00C1438F /* FruitModel.cpp */; };
+		605A7D2D1C058AF100C1438F /* View.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 605A7D2B1C058AF100C1438F /* View.cpp */; };
+		605A7D301C058AFA00C1438F /* FruitView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 605A7D2E1C058AFA00C1438F /* FruitView.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		605A7D0A1C04486100C1438F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		605A7D0C1C04486100C1438F /* TestCommponent */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestCommponent; sourceTree = BUILT_PRODUCTS_DIR; };
+		605A7D0F1C04486100C1438F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		605A7D161C04487700C1438F /* Commponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Commponent.cpp; sourceTree = "<group>"; };
+		605A7D171C04487700C1438F /* Commponent.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Commponent.hpp; sourceTree = "<group>"; };
+		605A7D191C04489A00C1438F /* CommponentManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CommponentManager.cpp; sourceTree = "<group>"; };
+		605A7D1A1C04489A00C1438F /* CommponentManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CommponentManager.hpp; sourceTree = "<group>"; };
+		605A7D1D1C054E7700C1438F /* Observer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Observer.cpp; sourceTree = "<group>"; };
+		605A7D1E1C054E7700C1438F /* Observer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Observer.hpp; sourceTree = "<group>"; };
+		605A7D211C0561D900C1438F /* Controller.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
+		605A7D221C0561D900C1438F /* Controller.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
+		605A7D241C05620200C1438F /* Singleton.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Singleton.hpp; sourceTree = "<group>"; };
+		605A7D251C05627000C1438F /* Model.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Model.cpp; sourceTree = "<group>"; };
+		605A7D261C05627000C1438F /* Model.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Model.hpp; sourceTree = "<group>"; };
+		605A7D281C0562CF00C1438F /* FruitModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FruitModel.cpp; sourceTree = "<group>"; };
+		605A7D291C0562CF00C1438F /* FruitModel.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FruitModel.hpp; sourceTree = "<group>"; };
+		605A7D2B1C058AF100C1438F /* View.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = View.cpp; sourceTree = "<group>"; };
+		605A7D2C1C058AF100C1438F /* View.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = View.hpp; sourceTree = "<group>"; };
+		605A7D2E1C058AFA00C1438F /* FruitView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FruitView.cpp; sourceTree = "<group>"; };
+		605A7D2F1C058AFA00C1438F /* FruitView.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FruitView.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		605A7D091C04486100C1438F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		605A7D031C04486100C1438F = {
+			isa = PBXGroup;
+			children = (
+				605A7D0E1C04486100C1438F /* TestCommponent */,
+				605A7D0D1C04486100C1438F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		605A7D0D1C04486100C1438F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				605A7D0C1C04486100C1438F /* TestCommponent */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		605A7D0E1C04486100C1438F /* TestCommponent */ = {
+			isa = PBXGroup;
+			children = (
+				605A7D201C0561C900C1438F /* MVC */,
+				605A7D0F1C04486100C1438F /* main.cpp */,
+				605A7D161C04487700C1438F /* Commponent.cpp */,
+				605A7D171C04487700C1438F /* Commponent.hpp */,
+				605A7D191C04489A00C1438F /* CommponentManager.cpp */,
+				605A7D1A1C04489A00C1438F /* CommponentManager.hpp */,
+				605A7D1D1C054E7700C1438F /* Observer.cpp */,
+				605A7D1E1C054E7700C1438F /* Observer.hpp */,
+			);
+			path = TestCommponent;
+			sourceTree = "<group>";
+		};
+		605A7D201C0561C900C1438F /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				605A7D241C05620200C1438F /* Singleton.hpp */,
+				605A7D211C0561D900C1438F /* Controller.cpp */,
+				605A7D221C0561D900C1438F /* Controller.hpp */,
+				605A7D251C05627000C1438F /* Model.cpp */,
+				605A7D261C05627000C1438F /* Model.hpp */,
+				605A7D281C0562CF00C1438F /* FruitModel.cpp */,
+				605A7D291C0562CF00C1438F /* FruitModel.hpp */,
+				605A7D2B1C058AF100C1438F /* View.cpp */,
+				605A7D2C1C058AF100C1438F /* View.hpp */,
+				605A7D2E1C058AFA00C1438F /* FruitView.cpp */,
+				605A7D2F1C058AFA00C1438F /* FruitView.hpp */,
+			);
+			name = MVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		605A7D0B1C04486100C1438F /* TestCommponent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 605A7D131C04486100C1438F /* Build configuration list for PBXNativeTarget "TestCommponent" */;
+			buildPhases = (
+				605A7D081C04486100C1438F /* Sources */,
+				605A7D091C04486100C1438F /* Frameworks */,
+				605A7D0A1C04486100C1438F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestCommponent;
+			productName = TestCommponent;
+			productReference = 605A7D0C1C04486100C1438F /* TestCommponent */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		605A7D041C04486100C1438F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = CT;
+				TargetAttributes = {
+					605A7D0B1C04486100C1438F = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 605A7D071C04486100C1438F /* Build configuration list for PBXProject "TestCommponent" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 605A7D031C04486100C1438F;
+			productRefGroup = 605A7D0D1C04486100C1438F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				605A7D0B1C04486100C1438F /* TestCommponent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		605A7D081C04486100C1438F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605A7D101C04486100C1438F /* main.cpp in Sources */,
+				605A7D1F1C054E7700C1438F /* Observer.cpp in Sources */,
+				605A7D2A1C0562CF00C1438F /* FruitModel.cpp in Sources */,
+				605A7D231C0561D900C1438F /* Controller.cpp in Sources */,
+				605A7D2D1C058AF100C1438F /* View.cpp in Sources */,
+				605A7D301C058AFA00C1438F /* FruitView.cpp in Sources */,
+				605A7D271C05627000C1438F /* Model.cpp in Sources */,
+				605A7D1B1C04489A00C1438F /* CommponentManager.cpp in Sources */,
+				605A7D181C04487700C1438F /* Commponent.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		605A7D111C04486100C1438F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		605A7D121C04486100C1438F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		605A7D141C04486100C1438F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		605A7D151C04486100C1438F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		605A7D071C04486100C1438F /* Build configuration list for PBXProject "TestCommponent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				605A7D111C04486100C1438F /* Debug */,
+				605A7D121C04486100C1438F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		605A7D131C04486100C1438F /* Build configuration list for PBXNativeTarget "TestCommponent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				605A7D141C04486100C1438F /* Debug */,
+				605A7D151C04486100C1438F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 605A7D041C04486100C1438F /* Project object */;
+}
